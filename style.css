@@ -9,25 +9,27 @@ body{
     color: white;
 }
 .recent-artists{
-
+    display: flex;
     padding: 20px;
     border:1px solid red;
     
 }
 .my-playlist{
-    margin: 10px;
+    display: flex;
     padding: 20px;
     border:1px solid red;
+}
+
+.song{
+    border: 1px solid white;
+    width: 10%;
+    height: auto;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    background-color:green;
 }
 .song img{
     height: 20%;
     width: auto;
-}
-.song{
-    border: 1px solid white;
-    width: 20%;
-    margin: 5px;
-    float: left;
-    padding: 20px;
-    text-align: center;
 }
